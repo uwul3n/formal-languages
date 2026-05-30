@@ -1,0 +1,22 @@
+# terminals
+a b c
+# nonterminals
+S A B
+# start symbol
+S
+# number of rules
+5
+# rules: LHS -> RHS tokens; use 'eps' for ε
+S -> A B
+A -> a
+A -> eps
+B -> b
+B -> c
+# k
+1
+# queries: each line is α (sequence of grammar symbols)
+S
+A B
+A
+B
+a B
